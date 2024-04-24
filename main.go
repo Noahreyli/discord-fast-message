@@ -24,8 +24,6 @@ func main() {
 	var channelID string
 	var messageContent string
 	var addRandomString bool
-        
-	fmt.Print("Created by rucykun\n")
 
 	fmt.Print("チャンネルIDを入力してください: ")
 	_, _ = fmt.Scanln(&channelID)
