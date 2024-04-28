@@ -28,7 +28,7 @@ func main() {
 	fmt.Print("チャンネルIDを入力してください: ")
 	_, _ = fmt.Scanln(&channelID)
 
-	fmt.Print("送信するメッセージを入力してください: ")
+	fmt.Print("メッセージを入力してください: ")
 	scanner := bufio.NewScanner(os.Stdin)
 	scanner.Scan()
 	messageContent = scanner.Text()
